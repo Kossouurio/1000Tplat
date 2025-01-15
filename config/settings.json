@@ -1,0 +1,26 @@
+{
+    "projects": {
+        "Client": {
+            "dependencies": [],
+            "dependents": [],
+            "guid": "652C6FBD-2DDC-14F9-0A65-3C4C78C772B2",
+            "lib": false,
+            "pch": false,
+            "vcpkg": true,
+            "window": false
+        },
+        "Server": {
+            "dependencies": [],
+            "dependents": [],
+            "guid": "04162C75-3CA9-25C6-3C30-66E5335C64E1",
+            "lib": false,
+            "pch": false,
+            "vcpkg": true,
+            "window": false
+        }
+    },
+    "solution_guid": "02D943D1-4BD1-0808-77EE-170818083A0B",
+    "solution_name": "BallG",
+    "startup_project": "Client",
+    "version": "1.17.3"
+}
