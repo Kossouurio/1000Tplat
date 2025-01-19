@@ -35,9 +35,9 @@ void handleClient(SOCKET server)
 		float x = std::stof(data.substr(0, commaPos));
 		float y = std::stof(data.substr(commaPos + 1));
 
-		std::cout << "Position de la balle - x: " << x << ", y: " << y << std::endl;
 		position.x = x;
 		position.y = y;
+		std::cout << "x: " << x << ", y: " << y << std::endl;
 		//Sleep(100);
 	}
 }
@@ -81,7 +81,6 @@ int main()
 
 	std::cout << "Serveur demarre sur le port " << port << std::endl;
 
-	
 	/// THREADS
 	Thread* thread1 = new Thread();
 	thread1->Start([server]() {handleClient(server); });

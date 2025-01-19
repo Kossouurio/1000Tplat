@@ -39,6 +39,8 @@ int main()
 
     while (window.isOpen())
     {
+        std::cout << "x: " << ball.getPosition().x << ", y: " << ball.getPosition().y << std::endl;
+
         sf::Event event;
         while (window.pollEvent(event))
         {
